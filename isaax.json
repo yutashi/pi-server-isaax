@@ -1,6 +1,6 @@
 {
   "name": "pi-server-isaax",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple web server using isaax and flask",
   "main": "main.py",
   "author": "yutashi",
