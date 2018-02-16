@@ -10,7 +10,7 @@ def hello():
     else:
         msg = "MESSAGE env isn't set"
 
-        return msg
+    return msg
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
