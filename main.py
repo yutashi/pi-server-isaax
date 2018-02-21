@@ -6,7 +6,7 @@ MESSAGE = os.getenv('MESSAGE', None)
 @app.route("/")
 def hello():
     if MESSAGE:
-        msg = "Your message running on the device: {}".format(MESSAGE)
+        msg = "You could access to envs on the device: {}".format(MESSAGE)
     else:
         msg = "MESSAGE env isn't set"
 
